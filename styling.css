@@ -28,7 +28,7 @@ nav{
 .navbar > li > a:hover{
     background-color: #007bff;
 }
-
+/*About Section \*/
 .hero {
     display: flex;
     align-items: center;
@@ -54,6 +54,25 @@ nav{
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+#hero-name{
+    color:#007bff;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.button{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover{
+    background-color: #007bff;
 }
 
 /* Responsive for mobile */
