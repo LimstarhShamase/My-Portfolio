@@ -155,3 +155,25 @@ nav{
 .cards > a:hover{
     background-color: #007bff;
 }
+
+
+
+
+
+.contact-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icons a {
+    color: #333;
+    font-size: 2rem;
+    transition: color 0.2s;
+}
+
+.contact-icons a:hover {
+    color: #0077b5; /* LinkedIn blue or your theme color */
+}
