@@ -8,10 +8,22 @@ nav{
 
 .navbar{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     padding: 10px 20px;
     margin: 0;
     list-style: none;
     gap:20px;
+}
+
+.navbar > li > a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.navbar > li > a:hover{
+    background-color: #007bff;
 }
