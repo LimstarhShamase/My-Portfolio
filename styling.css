@@ -28,7 +28,42 @@ nav{
     background-color: #007bff;
 }
 
-.hero{
-    display:flex;
+.hero {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+#hero-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+#hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    #hero-text, #hero-image {
+        max-width: 100%;
+    }
+    #hero-image {
+        justify-content: center;
+    }
 }
