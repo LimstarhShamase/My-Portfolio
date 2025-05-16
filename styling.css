@@ -124,5 +124,33 @@ nav{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+
+}
+
+.cards{
+    border: 2px sold #333;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #FF9c38;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.cards > img{
+    width:200px;
+    height:100px;
+    object-fit: cover;
+}
+
+.cards > a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.cards > a:hover{
+    background-color: #007bff;
 }
