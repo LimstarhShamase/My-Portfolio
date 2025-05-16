@@ -28,6 +28,9 @@ nav{
 .navbar > li > a:hover{
     background-color: #007bff;
 }
+
+
+
 /*About Section \*/
 .hero {
     display: flex;
@@ -74,6 +77,11 @@ nav{
 .button:hover{
     background-color: #007bff;
 }
+
+
+
+
+
 
 /* Responsive for mobile */
 @media (max-width: 768px) {
