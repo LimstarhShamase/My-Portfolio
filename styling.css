@@ -78,6 +78,16 @@ nav{
     background-color: #007bff;
 }
 
+#langs-known{
+  color: #25005C;
+}
+
+.hero p{
+    font-size: 1.5rem;
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+
 
 
 
