@@ -27,3 +27,8 @@ nav{
 .navbar > li > a:hover{
     background-color: #007bff;
 }
+
+.hero{
+    display:flex;
+    justify-content: space-between;
+}
