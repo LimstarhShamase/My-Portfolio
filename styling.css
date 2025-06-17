@@ -1,3 +1,11 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: #333;
+}
+
 nav{
     background: linear-gradient(90deg, #ff7e5f, #feb47b);
     color: #fff;
@@ -57,7 +65,7 @@ nav{
 #hero-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 12px;
+    border-radius: 200px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
 
@@ -113,31 +121,35 @@ nav{
 
 
 /* Projects Section */
-#projects-header{
-    display: flex;
-    justify-content: center;
-    color: #25005C;
-    font-weight: bolder;
-    font-size: 2rem;
-    margin-top: 70px;
-    margin-bottom: 0;
-    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+
+#projects-header {
+    font-family: inherit;
+    font-size: 2rem;          
+    font-weight: 500;            
+    color: #222;                 
+    margin: 0.5em 0 1em 0;       
+    text-align: center;            
+    background: none;            
+    border: none;               
+    letter-spacing: 1px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);       
 }
 
 .project-cards{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #FF9c38;
+    
+    font-family: inherit;
 }
 
 .cards{
-    border: 2px solid #333;
+    font-family: inherit;
     border-radius: 12px;
     padding: 20px;
     margin: 20px;
     background-color: whitesmoke;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 .cards > img{
@@ -156,7 +168,7 @@ nav{
 }
 
 .cards > a:hover{
-    background-color: #007bff;
+    background-color: #feb47b;
 }
 
 
